@@ -57,9 +57,11 @@ void Display::input() {
 		case SDL_KEYUP:
 			switch (event_.key.keysym.sym) {
 			case SDLK_ESCAPE:
+			case SDLK_q:
 				quit_ = true;
 				break;
 			case SDLK_SPACE:
+			case SDLK_p:
 				play_ = !play_;
 				break;
 			default:

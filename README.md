@@ -48,8 +48,8 @@ Notes
 Controls
 --------
 
-* Space: Toggle play/pause
-* Escape: Quit
+* Space or p : Toggle play/pause
+* Esc   or q : Quit
 
 Build
 -----
